@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.button{
+    background-color: red;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    color: black;
+    display: block;
+    font-size: 1rem;
+    padding: .75rem 1rem ;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.top{
+    padding-right: 0;
+    padding-bottom: 5rem;
+   
+}
+h1{
+    font-size: 3rem;
+    
+}
+.top p {
+    font-size: 1.25rem;
+    padding-right: 1.25rem;
+}
+.top img{
+    padding-left: 2.25rem;
+    padding-top: 2.25rem;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+
+   
+}
+.top div{
+    display: grid; /* Cria um contêiner de grade */
+    grid-template-columns: 1fr 1fr ; /* Cria duas colunas automáticas */
+    column-gap: 10px;
+}
+.jg{
+    text-align: center;
+    
+}
+
+.works{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+
+}
+.works p {
+    font-size: .75rem;
+}
+.works img{
+    width: 30%;
+    height: auto;
+
+}
+
+.mid{
+    text-align: center;
+    padding-bottom: 5rem;
+    
+}
+.clients{
+    padding-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 150px;
+    
+}
+.clients img{
+    width: 50%;
+    height: auto;
+}
+.bot h1 {
+    text-align: center;
+}
+.bot form {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    grid-template-rows: 5vh 20vh;
+    margin: 30px ;
+}
+.yourname {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:  1;
+    grid-row-end: 2;
+}
+.email{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.description{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.bot a {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+.icones svg{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.icones{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+footer p {
+    margin-right: 10px;
+}
+
